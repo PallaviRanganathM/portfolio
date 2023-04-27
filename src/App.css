@@ -1,48 +1,132 @@
-.App {
+/* .App {
+  text-align: center;
+} */
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem!important;
+  padding-bottom: 5rem!important;
+}
+
+.p-3 {
+  padding: 1rem!important;
+}
+
+.mb-auto, .auto {
+  margin-bottom: auto!important;
+}
+
+.mt-auto, .auto {
+  margin-top: auto!important;
+}
+
+.mb-0{
+  margin-bottom: 0!important;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 5.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Saira Extra Condensed',serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed',serif;
+  font-size: 1.35rem;
+  color: #868e96;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 3rem!important;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 3rem!important;
+}
+
+.aboutme {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Open Sans',serif;
+  color: #4c5258;
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+
+.list-social-icons a {
+  color: #495057;
+}
+
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  margin-right: 2rem;
+}
+
+
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.name {
-  padding: 5px;
-  padding-top: 50px;
-  font-size: 50px;
-}
-
-.mail-id {
-  color: #282c34;
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
