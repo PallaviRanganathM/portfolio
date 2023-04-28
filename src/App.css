@@ -161,3 +161,17 @@ h3 {
 .text-primary {
   color: rgb(179, 131, 49);
 }
+
+.list-icons {
+  font-size: 3rem;
+}
+i {
+  color: #868e96;
+}
+.devicons {
+  font-family: devicons;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  margin: 1rem;
+}

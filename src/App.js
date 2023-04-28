@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import { BsGithub,  BsLinkedin} from "react-icons/bs";
+import { DiHtml5, DiCss3, DiJavascript1, DiBootstrap, DiReact } from "react-icons/di";
 
 function App() {
   return (
@@ -50,6 +51,29 @@ function App() {
                 <span className='text-primary'> June 2016 - May 2019</span>
             </div>
           </div>
+          </div>
+        </section>
+        <section className='resume-section p-3 p-lg-5' id='skills'>
+          <div className='auto'>
+            <h2 className='mb-5'>Skills</h2>
+            <div className='subheading mb-3'>Programmig Language & Tools </div>
+            <ul className='list-inline list-icons'>
+              <li className='list-inline-item'>
+                <i className='devicons'>< DiHtml5 /></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicons'>< DiCss3 /></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicons'>< DiJavascript1 /></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicons'>< DiBootstrap /></i>
+              </li>
+              <li className='list-inline-item'>
+                <i className='devicons'>< DiReact /></i>
+              </li>
+            </ul>
           </div>
         </section>
       </div>
